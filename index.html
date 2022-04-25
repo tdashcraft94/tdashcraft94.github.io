@@ -1,9 +1,112 @@
+<!DOCTYPE html>
+
 <html>
- 
-<body>
-  <h1>Taylor Ashcraft</h1>
-  <p>Welcome to  my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Monoton&family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>The Paw Wash (mockup)</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="socials">
+        <img src="facebook.png" alt="facebook">
+        <img src="instagram.png" alt="instagram">
+        <button id="book">Book Now</button>
+      </div>
+      <div class="navbar">
+        <ul>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Services</li>
+          <li>Gallery</li>
+        </ul>
+      </div>
+      <div class="phone">
+        <p>(801) 839-4086</p>
+        <img id="phoneimg" src="phone.png" alt="phone">
+      </div>
+      <div class="login">
+        <img id="profile" src="profile.png" alt="circle with head in it">
+        <button>Log In</button>
+      </div>
+      <img src="hamburger.png" alt="menu" id="hamburger">
+    </nav>
+
+    <section class="banner">
+      <h1>The<br>Paw Wash</h1>
+      <img src="Paw Wash Logo.webp" alt="Paw Wash Logo">
+      <p>Full Service Grooming Spaw</p>
+      <p>Best of SLC 2021 - Grooming Finalist</p>
+      <img src="Best of SLC.webp" alt="Best of SLC logo">
+      <button>Request Appointment</button>
+    </section>
+
+    <section class="about">
+      <div id="about-text">
+      <h2>Woman Owned and Operated!</h2>
+        <p>Pets are the unsung heroes in our lives!  AT times they can be a nuisance from digging into the trash or destroying the brand new carpet...</p>
+        <p>But at the end of the day, they are always there to give us that unconditional love. They help us overcome obstacles like stress, depression, anxiety, and improve our overall mental health. </p>
+        <p>At the Paw Wash, our mission is to educate our customers on the importance of love and care for their furry friends. Because where would we be without them? </p>
+        <p id="salutation">Hope to see you soon,</p>
+        <p id="salutation">Lauren & Arica </p>
+      </div>
+        <img src="LaurenAndArica.webp" alt="Owners">
+    </section>
+
+    <section class="our-team">
+      <div class="container1">
+      <h2>The Paw Pack</h2>
+      <div class="container2">
+        <div class="images-container" id="one">
+          <img src="Aero.jpg" alt="Teya">
+          <img src="Sophie.jpg" alt="Angela">
+        </div>
+        <div class="images-container" id="two">
+          <img src="MillieandMilo.jpg" alt="Maddy">
+          <img src="SexyTuba.jpg" alt="Maddy">
+        </div>
+        <div class="images-container" id="three">
+          <img src="GlassesDog.JPG" alt="Sabrina">
+          <img src="HoomanSit.jpg" alt="Brigitte">
+          <img src="RudyFlamingo.JPG" alt="RudyFlamingo">
+        </div>
+      </div>
+     </div>
+      
+      
+    </section>
+
+    <section class="location">
+      <div class="address"> 
+        <p>6904 Navigator Dr Unit 205,<br> West Jordan, UT 84084</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2546.4028465422552!2d-112.00251068909748!3d40.62546265423019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87528fb668e0e5e1%3A0xd9172dd11bef16db!2sThe%20Paw%20Wash!5e0!3m2!1sen!2sus!4v1650678226484!5m2!1sen!2sus" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="feedback">
+        <h3>We would love your feedback!</h3>
+        <form>
+          <div>
+            <input type="text" id="fname" name="fname" placeholder="Name">
+            <input type="text" id="email" name="email" placeholder="Email"><br>
+          </div>
+          <input type="text" id="subject" name="subject" placeholder="Subject"><br>
+          <textarea cols="50" rows="5" id="message" name="message" placeholder="Type your message here. . . "></textarea><br>
+          <input type="submit" value="Submit" id="submit">
+        </form>
+      </div>
+      <div class="contact">
+        <h3>Give us a Call:</h3>
+        <p>(801) 839-4086</p>
+      </div>
+    </section>
+
+    <footer>Copyright The Paw Wash 2022, created by Taylor Ashcraft Web Design</footer>
+
+
+
+  </body>
 </html>
